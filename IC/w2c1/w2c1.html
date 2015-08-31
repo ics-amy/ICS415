@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <table border="2">
+    <tr>
+      <th colspan="2">
+        <header><canvas id="myCanvas" width="700" height="300">
+          No canvas support.</canvas>
+          <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "40px Arial";
+            ctx.textAlign="center";
+            ctx.strokeText("Amy's Cool Website",450,50);
+          </script>
+        </header>
+      </th>
+    <tr>
+      <td colspan="2">
+        <nav>
+          <a href="http://localhost/ics415f15/A04/index.html">Home</a>
+          <a href="http://localhost/ics415f15/A04/forms.html">Forms</a>
+        </nav>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%" valign="top" align="center">
+        <section>Summary Window</section>
+      </td>
+      <td width="75%">
+        <aside>Page</aside>
+        <form>
+          Username: <input type="text" name="username">
+          Password: <input type="text" name="password">
+          <input type="submit" value="submit">
+        </form>
+      </td>
+    <tr>
+      <td colspan="2" align="center">
+        <footer>Copyright (C) Amy Li</footer>
+      </td>
+    </tr>
+</table>
+</body>
+</html>
