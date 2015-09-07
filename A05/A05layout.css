@@ -1,0 +1,48 @@
+body {
+  background-image: url("sailboat.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#header {
+  border: 1px solid deepskyblue;
+  height: 30px;
+  padding: 10px;
+}
+
+#nav {
+  border: 1px solid deepskyblue;
+  height: 50px;
+  padding: 10px;
+}
+
+#content {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#content div {
+  padding: 10px;
+  border: 1px solid deepskyblue;
+  float: left;
+}
+
+#content-left {
+  width: 350px;
+  height: 500px;
+}
+
+#content-main {
+  margin-left: 10px;
+  width: 1020px;
+  height: auto;
+}
+
+#footer {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid deepskyblue;
+  width: 1400px;
+}
