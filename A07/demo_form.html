@@ -11,33 +11,66 @@
 <body>
   <div class="container-fluid">
 
-    <p id="message"></p>
+    <div class="row">
 
-    <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
-
-      <div class="form-group">
-        <label for="username">User name: </label>
-        <input type="text" name="name" id="username">
+      <!-- Header -->
+      <div class="col-lg-12">
+        <header><h1 align="center">Form</h1></header>
       </div>
 
-      <div class="form-group">
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email">
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav nav-pills green">
+          <li role="presentation" class="active"><a href="demo_form.html">Form</a></li>
+        </ul>
+      </nav>
+
+      <div class="col-lg-12"><br></div>
+
+      <!-- Error Messages -->
+      <div class="col-lg-12" align="center">
+        <p align="center"><b>To refresh form, please refresh the page or click on the "Form" in the navigation.</b></p>
+        <p id="e_username"</p>
+        <p id="e_email"></p>
+        <p id="e_password"></p>
+        <p id="e_confirm"></p>
+
+      <!-- Form -->
+         <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+
+          <div class="form-group">
+            <label for="username">User name: </label>
+            <input type="text" name="name" id="username">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+          </div>
+
+          <div class="form-group">
+            <label for="confirm">Confirm Password: </label>
+            <input type="password" name="confirm" id="confirm">
+          </div>
+
+          <input type="submit" value="Submit">
+
+        </form>
       </div>
 
-      <div class="form-group">
-        <label for="password">Password: </label>
-        <input type="password" name="password" id="password">
+      <!-- Footer -->
+      <div class="col-lg-12">
+        <div class="navbar-fixed-bottom" align="center" >
+          <footer><b>Copyright (C) Amy Li</b></footer>
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="confirm">Confirm Password: </label>
-        <input type="password" name="confirm" id="confirm">
-      </div>
-
-      <input type="submit" value="Submit">
-
-    </form>
+    </div>
   </div>
 </body>
 <script src="form_check.js"></script>
