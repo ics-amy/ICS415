@@ -1,0 +1,16 @@
+.question {
+  margin: 0;
+  padding: inherit;
+  cursor: pointer;
+}
+
+.answer_wrapper {
+  margin: 0;
+  padding: inherit;
+}
+
+.answer {
+  margin: 0;
+  padding: inherit;
+
+}
