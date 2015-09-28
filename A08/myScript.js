@@ -19,3 +19,10 @@ $(document).ready(function() {
     $("#a5").slideToggle();
   });
 });
+
+$(document).ready(function() {
+  $("#URL_button").click(function () {
+    var url = $(this).attr("ahref");
+    alert("# of links: " + url);
+  });
+});
